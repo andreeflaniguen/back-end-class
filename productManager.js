@@ -37,8 +37,8 @@ class ProductManager {
 const producto = new ProductManager(); 
 
 
-console.log(producto.addProduct('Play', 'description', 2500, 'www.twitter.com', '123456', 10));
-console.log(producto.addProduct('Xbox', 'descriptiondos', 500, 'www.twitter.com', '65421', 5));
+console.log(producto.addProduct('Play', 'description', 2500, 'https://www.playstation.com/', '123456', 10));
+console.log(producto.addProduct('Xbox', 'descriptiondos', 500, 'https://www.xbox.com/', '65421', 5));
 
 
 console.log(producto.getProductsById(1));
